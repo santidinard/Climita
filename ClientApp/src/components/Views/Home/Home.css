@@ -1,0 +1,158 @@
+﻿.title {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    border-bottom: solid;
+    padding-bottom: 10px;
+    border-color: #ff5c4b;
+}
+
+h3 {
+    border-bottom: solid;
+    padding-bottom: 10px;
+    border-color: darkblue;
+    border-width: 2px;
+    text-align: center;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+h3, h4 {
+    color: darkblue;
+}
+
+.box {
+    border-width: thin;
+    background-color: white;
+    padding: 25px;
+    border-radius: 3px;
+    box-shadow: #0000007d 0px 1px 3px 0px;
+}
+
+.gridBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    height: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 35px;
+}
+
+.calendarBox {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    height: 400px;
+    margin-bottom: 35px;
+    text-align: center;
+    padding-top: 25px !important;
+    padding-right: 0px !important;
+    padding-bottom: 25px !important;
+    padding-left: 0px !important;
+}
+
+.borderRight {
+    border-right: solid;
+    border-width: thin;
+    border-color: lightgrey;
+}
+
+.labelsZona {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.buscarButton {
+    padding: 5px;
+    margin-top: 60px;
+    background-color: #ff5c4b;
+    color: white;
+    text-transform: uppercase;
+    border: 0px;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+    .buscarButton:disabled {
+        background-color: grey;
+        cursor: auto;
+    }
+
+.spanLocPais {
+    font-size: 0.8rem;
+    color: #b3b0b0;
+}
+
+.spanLocCiudad {
+    font-size: 1.1rem;
+    color: #b3b0b0;
+}
+
+.gridBoxReporte {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
+}
+
+.spanDay {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    font-weight: 500;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.spanCondition {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    font-weight: 500;
+}
+
+.spanTemp {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.spanTempC {
+    font-size: 1.5rem;
+    font-weight: 500;
+    vertical-align: 25px;
+    letter-spacing: 0.2rem;
+    margin-left: 10px;
+}
+
+.spanTempF {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+}
+
+.spanInfo {
+    float: right;
+}
+
+.iconSVG {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+    .iconSVG svg {
+        font-size: 10rem;
+        color: #b7b7b7;
+    }
+.iconSVGDays {
+    padding-top: 10%;
+    padding-bottom: 25%;
+}
+
+.tryToHide {
+    color: white;
+}

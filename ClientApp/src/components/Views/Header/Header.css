@@ -1,0 +1,96 @@
+﻿a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+    a.navbar-brand svg {
+        font-size: 1.5rem;
+    }
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.navBarComplete {
+    background-color: #ff5c4b;
+}
+
+.userButton {
+    text-transform: uppercase;
+    color: white;
+    border: solid;
+    border-width: thin;
+    border-radius: 3px;
+    font-weight: bold;
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    letter-spacing: 0.1rem;
+    padding: 5px;
+    cursor: pointer;
+}
+
+    .userButton svg {
+        margin-bottom: 4px;
+    }
+
+    .userButton:hover, .userButton:focus {
+        color: rgb(0 0 0 / 90%);
+    }
+
+#loginWindow {
+    height: 215px;
+    width: 250px;
+    background-color: white;
+    padding: 20px;
+    display: none;
+    position: absolute;
+    top: calc(100% + 0px);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: #0000007d 0px 2px 3px 0px;
+}
+
+.submitButton {
+    margin-top: 25px;
+    background-color: #ff5c4b;
+    color: white;
+    text-transform: uppercase;
+    border: 0px;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    width: 100%;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.inputsLogin {
+    width: 100%;
+    border-color: #d3d3d37a;
+    border-radius: 3px;
+    border-width: thin;
+}
+
+.labelPassword {
+    margin-top: 10px;
+}

@@ -1,0 +1,24 @@
+﻿.spinner {
+    font-size: 3rem;
+    color: #ff5c4b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    width: 100%;
+}
+
+    .spinner svg {
+        vertical-align: middle;
+        animation: spin 1.5s linear infinite;
+    }
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
